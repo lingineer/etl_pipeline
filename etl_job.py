@@ -11,6 +11,7 @@ from sqlalchemy import create_engine
 account_name = None 
 
 # read info from environment variables
+# # before running this script, dont forget to assign environment variables using the `export` command in terminal
 postgres_info = {
     'username': os.environ['postgres-username'],
     'password': os.environ['postgres-password'],
